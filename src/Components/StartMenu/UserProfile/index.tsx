@@ -6,7 +6,7 @@ export const UserProfile = () => {
     <div class={styles.container}>
       <div class={styles.user}>
         <img
-          src="https://i.imgur.com/UHJBYx9.jpg"
+          src="https://i.imgur.com/PHyAUic.png"
           alt="Callum Pope"
         />
         <p>Callum Pope</p>
