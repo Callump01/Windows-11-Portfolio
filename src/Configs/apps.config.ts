@@ -51,7 +51,7 @@ export const AppsConfig: App = {
 	"MIM": {
 		title: "Microsoft Identity Manager",
 		isActive: true,
-		icon: MIM
+		icon: MIM,
 		Component: MimApp,
         height: 500,
         width: 800
