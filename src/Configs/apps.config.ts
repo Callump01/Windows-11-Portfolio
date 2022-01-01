@@ -1,5 +1,6 @@
 import edge from '../assets/icons/taskbar/edge.ico'
 import ms_store from '../assets/icons/taskbar/ms_store.png'
+import mim from '../assets/icons/taskbar/mim.ico'
 import file_explorer from '../assets/icons/taskbar/file_explorer.webp'
 import { MSEdgeIcon, MSStoreIcon, SettingsIcon, VSCodeIcon } from '../assets/icons/startmenu'
 import { ControlPanel, RecycleBin, ThisPC } from '../assets/icons/Desktop'
@@ -47,6 +48,14 @@ export const AppsConfig: App = {
         isActive: false,
         icon: RecycleBin
     },
+	"MIM": {
+		title: "Microsoft Identity Manager",
+		isActive: true,
+		icon: MIM
+		Component: MimApp,
+        height: 500,
+        width: 800
+	},
     "control-panel": {
         title: "Control Panel",
         isActive: false,
