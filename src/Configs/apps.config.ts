@@ -6,6 +6,7 @@ import { MSEdgeIcon, MSStoreIcon, SettingsIcon, VSCodeIcon } from '../assets/ico
 import { ControlPanel, RecycleBin, ThisPC } from '../assets/icons/Desktop'
 import { Apps } from './startMenu.config'
 import { VsCodeApp } from '../Apps'
+import { MimApp } from '../Apps'
 
 export type App = {
     [key: string]: {
@@ -48,7 +49,7 @@ export const AppsConfig: App = {
         isActive: false,
         icon: RecycleBin
     },
-	"MIM": {
+	"mim": {
 		title: "Microsoft Identity Manager",
 		isActive: true,
 		icon: MIM,
