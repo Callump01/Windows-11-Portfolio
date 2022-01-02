@@ -84,12 +84,14 @@ export const PinnedApps: PinnedApp[] = [{
     title: "Weather",
     icon: WeatherIcon
 }, {
-    title: "Whiteboard",
-    icon: WhiteBoardIcon
-}, {
     title: "Microsoft Identity Manager",
     icon: MIMIcon,
 	appId: "MimApp",
+	pinned: true
+}, {
+    title: "About Me",
+    icon: MSWordIcon,
+	appId: "AboutMeApp",
 	pinned: true
 }]
 

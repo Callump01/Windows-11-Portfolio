@@ -7,6 +7,7 @@ import { ControlPanel, RecycleBin, ThisPC } from '../assets/icons/Desktop'
 import { Apps } from './startMenu.config'
 import { VsCodeApp } from '../Apps'
 import { MimApp } from '../Apps'
+import { AboutMeApp } from '../Apps'
 
 export type App = {
     [key: string]: {
@@ -51,11 +52,19 @@ export const AppsConfig: App = {
     },
 	"mim": {
 		title: "Microsoft Identity Manager",
-		isActive: true,
+		//isActive: true,
 		icon: mim,
 		Component: MimApp,
-        height: 500,
-        width: 800
+        height: 800,
+        width: 1000
+	},
+	"about-me": {
+		title: "About",
+		isActive: true,
+		icon: ThisPC,
+		Component: AboutMeApp,
+        height: 800,
+        width: 1000
 	},
     "control-panel": {
         title: "Control Panel",
