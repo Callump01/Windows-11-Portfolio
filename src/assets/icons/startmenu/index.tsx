@@ -43,4 +43,5 @@ export {
   SolitareIcon,
   ShutDownIcon,
   SettingsIcon,
+  MIMIcon,
 };
