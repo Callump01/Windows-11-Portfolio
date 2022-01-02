@@ -1,5 +1,5 @@
-import linkedin_icon from "../../assets/icons/Social/linkedin-icon.svg";
-import github_icon from "../../assets/icons/Social/github-icon.svg";
+import linkedin_icon from "../assets/icons/Social/linkedin-icon.svg";
+import github_icon from "../assets/icons/Social/github-icon.svg";
 
 export const AboutMeApp = () => {
   return (
