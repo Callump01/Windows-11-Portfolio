@@ -69,7 +69,7 @@ export const AppsConfig: App = {
 	},
 	"contact-me": {
 		title: "Contact Me",
-		isActive: true,
+		isActive: false,
 		icon: ThisPC,
 		Component: ContactMeApp,
         height: 600,
