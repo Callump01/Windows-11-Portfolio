@@ -19,7 +19,7 @@ import WhiteBoardIcon from "./icons8-whiteboard.svg";
 import SolitareIcon from "./icons8-microsoft-solitaire-collection.svg";
 import ShutDownIcon from "./power.svg";
 import SettingsIcon from "./icons8-settings.svg";
-import MimIcon from "./MIM.ico";
+import MIMIcon from "./MIM.ico";
 
 export {
   GitHubIcon,

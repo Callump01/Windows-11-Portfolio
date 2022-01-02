@@ -30,6 +30,6 @@ export const DesktopItems: Item[] = [{
     appId: "vscode"
 }, {
     name: "Microsoft Identity Manager",
-    icon: MimIcon,
+    icon: MIMIcon,
     appId: "mim"
 }]
