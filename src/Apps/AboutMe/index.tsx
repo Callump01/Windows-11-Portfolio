@@ -17,7 +17,8 @@ export const AboutMeApp = () => {
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;"><a style="text-align: centerfont-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-weight: bold; text-decoration: none; border-radius: 5px; background-color: #193f7d; border-top: 12px solid #193f7d; border-bottom: 12px solid #193f7d; border-right: 18px solid #193f7d; border-left: 18px solid #193f7d; display: inline-block;" href="mailto:contact@callumpope.com" target="_blank">Contact Me</a></p>
 
-<img src="../../assets/icons/Social/github-icon.svg" />
+<p style="text-align: center;"><a href="https://github.com/callump01"><img src="https://i.imgur.com/8uXDHIW.png" /></a>
+<a href="https://www.linkedin.com/in/callumpope/"><img src="https://i.imgur.com/R2gxHKO.png" /></a></p>
 
 </div>
   );
