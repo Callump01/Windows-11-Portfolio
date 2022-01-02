@@ -36,4 +36,8 @@ export const DesktopItems: Item[] = [{
     name: "About Me",
     icon: ThisPC,
     appId: "about-me"
+}, {
+    name: "Contact Me",
+    icon: ThisPC,
+    appId: "contact-me"
 }]

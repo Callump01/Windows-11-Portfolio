@@ -66,6 +66,14 @@ export const AppsConfig: App = {
         height: 800,
         width: 1000
 	},
+	"contact-me": {
+		title: "Contact Me",
+		isActive: true,
+		icon: ThisPC,
+		Component: ContacttMeApp,
+        height: 600,
+        width: 800
+	},
     "control-panel": {
         title: "Control Panel",
         isActive: false,
