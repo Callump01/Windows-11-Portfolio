@@ -8,6 +8,7 @@ import { Apps } from './startMenu.config'
 import { VsCodeApp } from '../Apps'
 import { MimApp } from '../Apps'
 import { AboutMeApp } from '../Apps'
+import { ContactMeApp } from '../Apps'
 
 export type App = {
     [key: string]: {
