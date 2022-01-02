@@ -1,6 +1,6 @@
 export const AboutMeApp = () => {
   return (
-<div>
+<div style="padding: 10px">
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/1iWsYGt.png" alt="" width="249" height="249" /></p>
 <h4>&nbsp;</h4>
 <h2 style="text-align: center;">About Me</h2>

@@ -55,7 +55,7 @@ export const AppsConfig: App = {
 		icon: mim,
 		isActive: false,
 		Component: MimApp,
-        height: 800,
+        height: 700,
         width: 1000
 	},
 	"about-me": {
