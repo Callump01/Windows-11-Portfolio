@@ -30,5 +30,5 @@ export const DesktopItems: Item[] = [{
 }, {
     name: "Microsoft Identity Manager",
     icon: mim,
-    appId: "mim"
+    appId: "MimApp"
 }]
