@@ -27,4 +27,8 @@ export const DesktopItems: Item[] = [{
     name: "Vs Code",
     icon: VSCodeIcon,
     appId: "vscode"
+}, {
+    name: "Microsoft Identity Manager",
+    icon: mim,
+    appId: "mim"
 }]
