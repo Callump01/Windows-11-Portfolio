@@ -17,6 +17,7 @@ import {
     WeatherIcon,
     WhiteBoardIcon,
     SolitareIcon,
+	MimIcon,
 } from "../assets/icons/startmenu"
 
 export type PinnedApp = {
@@ -86,6 +87,9 @@ export const PinnedApps: PinnedApp[] = [{
 }, {
     title: "Whiteboard",
     icon: WhiteBoardIcon
+}, {
+    title: "Microsoft Identity Manager",
+    icon: MimIcon
 }, {
     title: "Solitare",
     icon: SolitareIcon
