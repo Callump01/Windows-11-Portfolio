@@ -89,8 +89,8 @@ export const PinnedApps: PinnedApp[] = [{
     icon: WhiteBoardIcon
 }, {
     title: "Microsoft Identity Manager",
-    icon: MIMIcon
-	appId: "MimApp"
+    icon: MIMIcon,
+	appId: "MimApp",
 	pinned: true
 }, {
     title: "Solitare",
