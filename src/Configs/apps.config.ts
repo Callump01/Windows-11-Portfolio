@@ -52,14 +52,13 @@ export const AppsConfig: App = {
     },
 	"mim": {
 		title: "Microsoft Identity Manager",
-		//isActive: true,
 		icon: mim,
 		Component: MimApp,
         height: 800,
         width: 1000
 	},
 	"about-me": {
-		title: "About",
+		title: "About Me",
 		isActive: true,
 		icon: ThisPC,
 		Component: AboutMeApp,
