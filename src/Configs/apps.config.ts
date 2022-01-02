@@ -65,7 +65,7 @@ export const AppsConfig: App = {
 		icon: ThisPC,
 		Component: AboutMeApp,
         height: 800,
-        width: 1000
+        width: 800
 	},
 	"contact-me": {
 		title: "Contact Me",
