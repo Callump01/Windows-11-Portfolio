@@ -17,9 +17,10 @@ export const AboutMeApp = () => {
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;"><a style="text-align: centerfont-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-weight: bold; text-decoration: none; border-radius: 5px; background-color: #193f7d; border-top: 12px solid #193f7d; border-bottom: 12px solid #193f7d; border-right: 18px solid #193f7d; border-left: 18px solid #193f7d; display: inline-block;" href="mailto:contact@callumpope.com" target="_blank">Contact Me</a></p>
 
-<a href="https://github.com/callump01">
-  <Image src="../../assets/icons/Social/github-icon.svg" className="githubIcon" />
-</a>
+<Image
+  source={{ uri: 'github_icon' }}
+  style={{ width: 40, height: 40 }}
+/>
 
 </div>
   );
