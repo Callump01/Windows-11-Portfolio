@@ -79,8 +79,7 @@ export const PinnedApps: PinnedApp[] = [{
 }, {
     title: "Store",
     icon: MSStoreIcon,
-    appId: "ms-store",
-    pinned: true
+    appId: "ms-store"
 }, {
     title: "Weather",
     icon: WeatherIcon
@@ -92,9 +91,6 @@ export const PinnedApps: PinnedApp[] = [{
     icon: MIMIcon,
 	appId: "MimApp",
 	pinned: true
-}, {
-    title: "Solitare",
-    icon: SolitareIcon
 }]
 
 export const Apps = PinnedApps.reduce((acc, app) => {
