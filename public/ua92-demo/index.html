@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callum Pope - Identity & Access Management Consultant</title>
+    <!-- Including Bootstrap CSS for styling, ensuring responsive design and pre-built components -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Including custom styles for additional styling specific to this project -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Including Slick Carousel CSS for the client logo carousel feature -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <!-- Navigation bar section using Bootstrap classes for layout and styling -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- brand logo linking to the homepage -->
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="Callum Pope Logo" height="40">
+        </a>
+        <!-- Button for toggling the navbar menu on smaller screens like mobiles -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible part of the navbar containing navigation links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- Navigation items linking to different pages of the website -->
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Header section with a video background -->
+    <!-- Start of code from https://startbootstrap.com/snippets/video-header -->
+    <header class="video-header">
+        <!-- Overlay for darkening the video background which enhances the text readability a bit more -->
+        <div class="overlay"></div>
+        <!-- Video element for the background, set to play automatically, muted and looping -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets/videos/home-bgvideo.mp4" type="video/mp4">
+            <!-- Video source: https://www.pexels.com/video/close-up-view-of-a-man-doing-computer-programming-6330779/ licensed under creative commons. Very hackerman! -->
+        </video>
+        <!-- Container to center header content, using Bootstrap utility classes for alignment -->
+        <div class="container h-100">
+            <!-- Flexbox container to vertically and horizontally center the text -->
+            <div class="d-flex h-100 text-center align-items-center">
+                <!-- Full-width white text for the header content -->
+                <div class="w-100 text-white">
+                    <h1 class="display-3">Callum Pope</h1>
+                    <p class="lead mb-0">Identity & Access Management Consultant</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of code from https://startbootstrap.com/snippets/video-header -->
+
+    <!-- Main content section for the introduction -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>What can I offer you?</h2>
+                <!-- Brief description of the clients (/my) expertise and track record. First thing an end-user probably reads! -->
+                <p>As a seasoned Identity and Access Management (IAM) consultant, I bring a wealth of expertise in designing, developing, and deploying robust IAM infrastructure.</p>
+                <p>With a track record of enhancing client infrastructures across a diverse range of industries from multinational corporations to small and medium-sized enterprises, I have consistently delivered successful identity solutions tailored to meet unique business needs.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Client carousel section displaying previous clients' logos -->
+    <!-- Start of code from https://kenwheeler.github.io/slick/ -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Previous Clients</h2>
+                <!-- Brief description of successful client engagements -->
+                <p>Join my list of growing clients that I've successfully helped with overcoming their IAM, security and governance challenges.</p>
+            </div>
+        </div>
+        <!-- Slick carousel for client logos, with each logo having a caption because accessibility -->
+        <div class="client-carousel mt-4">
+            <div><img src="assets/images/client1.png" alt="UK Parliament"><p style="font-size: 14px; text-align: center;">UK Parliament</p></div>
+            <div><img src="assets/images/client2.png" alt="ARM"><p style="font-size: 14px; text-align: center;">ARM</p></div>
+            <div><img src="assets/images/client3.png" alt="Thames Valley Police"><p style="font-size: 14px; text-align: center;">Thames Valley Police</p></div>
+            <div><img src="assets/images/client4.png" alt="Deloitte"><p style="font-size: 14px; text-align: center;">Deloitte</p></div>
+            <div><img src="assets/images/client5.png" alt="Aviva"><p style="font-size: 14px; text-align: center;">Aviva</p></div>
+        </div>
+    </div>
+    <!-- End of code from https://kenwheeler.github.io/slick/ -->
+
+    <!-- Footer section with accessibility controls -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 Callum Pope. All rights reserved.</p>
+        <div id="accessibility">
+            <!-- Text size control buttons -->
+            <div class="btn-group" role="group" aria-label="Text size controls">
+                <!-- Button to increase text size -->
+                <button type="button" class="btn btn-secondary" onclick="increaseTextSize()">🗚</button>
+                <!-- Button to decrease text size -->
+                <button type="button" class="btn btn-secondary" onclick="decreaseTextSize()">🗛</button>
+                <!-- Button to reset text size to default -->
+                <button type="button" class="btn btn-secondary" onclick="resetTextSize()">↺</button>
+            </div>
+            <!-- Dropdown for selecting contrast scheme -->
+            <div class="dropdown mt-2">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Contrast
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <!-- Bootstrap button dropdown -->
+                    <button class="dropdown-item" onclick="changeColorScheme('default')">Default Scheme</button> <!-- Adding items for each colour scheme -->
+                    <button class="dropdown-item" onclick="changeColorScheme('high-contrast-1')">High Contrast - Yellow on Black</button>
+                    <button class="dropdown-item" onclick="changeColorScheme('high-contrast-2')">High Contrast - Black on Orange</button>
+                    <button class="dropdown-item" onclick="changeColorScheme('high-contrast-3')">High Contrast - Black on Green</button>
+                    <button class="dropdown-item" onclick="changeColorScheme('high-contrast-4')">High Contrast - White on Purple</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Including jQuery for Bootstrap plugins -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Including Popper.js for Bootstrap tooltips and popovers -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- Including Bootstrap JS for functionality -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Including Slick Carousel JS for the client logo carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Including custom JS file -->
+    <script src="assets/js/scripts.js"></script>
+    <!-- Initialize Slick Carousel -->
+    <script type="text/javascript">
+        // Initialize Slick Carousel with center mode and autoplay settings
+        $(document).ready(function(){
+            $('.client-carousel').slick({
+                centerMode: true, // Enables centered view with partial prev/next slides visible
+                centerPadding: '60px', // Padding
+                centerPadding: '60px', // Padding around the center slide
+                slidesToShow: 3, // Number of slides to show at once
+                autoplay: true, // Enables automatic sliding
+                autoplaySpeed: 3000, // Time in milliseconds between each slide
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false, // Disables navigation arrows on smaller screens
+                            centerMode: true, // Keeps center mode enabled
+                            centerPadding: '40px', // Adjusts padding for smaller screens
+                            slidesToShow: 3 // Shows 3 slides on medium screens
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false, // Disables navigation arrows on small screens
+                            centerMode: true, // Keeps center mode enabled
+                            centerPadding: '40px', // Adjusts padding for smaller screens
+                            slidesToShow: 1 // Shows 1 slide on small screens
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

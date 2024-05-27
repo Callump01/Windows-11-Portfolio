@@ -1,0 +1,155 @@
+/* styles.css */
+/* This is the 'main' CSS for the Callum Pope portfolio website */
+
+/* Video Header Styling */
+/* This section styles the video header */
+.video-header {
+    position: relative; /* Positioning the video header relative to its normal position */
+    background: #000; /* Setting the background color to black */
+    color: #fff; /* Setting the text color to white */
+    height: 50vh; /* Setting the height of the video header to 50% of the viewport height */
+    min-height: 25rem; /* Minimum height of 25 rem units after some trial and error */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hiding overflow content */
+}
+
+/* Styles for the video element inside the header */
+.video-header video {
+    position: absolute; /* Positioning the video absolutely within the header */
+    top: 50%; /* Centering the video vertically */
+    left: 50%; /* Centering the video horizontally */
+    min-width: 100%; /* Minimum width of 100% of the parent */
+    min-height: 100%; /* Minimum height of 100% of the parent */
+    width: auto; /* Width set to auto to maintain aspect ratio */
+    height: auto; /* Height set to auto to maintain aspect ratio */
+    z-index: 0; /* Setting the stacking order to ensure the video is behind other elements */
+    -ms-transform: translateX(-50%) translateY(-50%); /* Centering the video for internet explroer */
+    -moz-transform: translateX(-50%) translateY(-50%); /* Centering the video for firefox */
+    -webkit-transform: translateX(-50%) translateY(-50%); /* Centering the video for safari */
+    transform: translateX(-50%) translateY(-50%); /* Centering the video for literally any modern browser */
+}
+
+/* Styles for the container inside the video header */
+.video-header .container {
+    position: relative; /* Positioning the container relative to its normal position */
+    z-index: 2; /* Setting the stacking order to ensure the container is above the video and overlay */
+}
+
+/* Styles for the overlay inside the video header */
+.video-header .overlay {
+    position: absolute; /* Positioning the overlay absolutely within the header */
+    top: 0; /* Positioning the overlay at the top */
+    left: 0; /* Positioning the overlay at the left */
+    height: 100%; /* Full height of the parent */
+    width: 100%; /* Full width of the parent */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: 1; /* Setting the stacking order to ensure the overlay is above the video but below the text */
+}
+
+/* Slick Carousel Styling */
+/* Styling the images inside the client carousel */
+.client-carousel img {
+    width: 100%; /* Full width of the parent */
+    height: 100%; /* Full height of the parent */
+    max-height: 50px; /* Maximum height of 50 pixels */
+    object-fit: contain; /* Ensuring the image scales nicely within its container */
+}
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Setting the font family for the body */
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 20px; /* Adding bottom margin to the navbar */
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa; /* Setting the background color to light grey */
+    padding: 10px 0; /* Adding vertical padding */
+}
+
+/* Headings styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Setting the font family for headings */
+}
+
+/* Container margin */
+.container {
+    margin-top: 20px; /* Adding top margin to the container */
+}
+
+/* Accessibility section styling */
+#accessibility {
+    margin-top: 20px; /* Adding top margin to the accessibility section */
+}
+
+/* Button and select styling inside the accessibility section */
+#accessibility button, #accessibility select {
+    margin: 5px; /* Adding margin around buttons and select elements */
+}
+
+/* High Contrast Styles */
+/* Defining styles for high contrast schemes */
+/* Just to note, I am using !important here to override any css conflicts with default bootstrap since this was causing issues  */
+.high-contrast-1 body,
+.high-contrast-1 .bg-light,
+.high-contrast-1 .jumbotron,
+.high-contrast-1 footer {
+    background-color: #000 !important; /* Setting the background color to black */
+    color: #FFD700 !important; /* Setting the text color to yellow */
+}
+.high-contrast-1 .card-body {
+    background-color: #000 !important; /* Setting the background color of card body to black */
+    color: #FFD700 !important; /* Setting the text color to yellow */
+}
+.high-contrast-1 .navbar-toggler {
+    border-color: #FFD700 !important; /* Setting the border color of the navbar toggler to yellow */
+}
+
+.high-contrast-2 body,
+.high-contrast-2 .bg-light,
+.high-contrast-2 .jumbotron,
+.high-contrast-2 footer {
+    background-color: #FFA500 !important; /* Setting the background color to orange */
+    color: #000 !important; /* Setting the text color to black */
+}
+.high-contrast-2 .card-body {
+    background-color: #FFA500 !important; /* Setting the background color of card body to orange */
+    color: #000 !important; /* Setting the text color to black */
+}
+.high-contrast-2 .navbar-toggler {
+    border-color: #FFA500 !important; /* Setting the border color of the navbar toggler to orange */
+}
+
+.high-contrast-3 body,
+.high-contrast-3 .bg-light,
+.high-contrast-3 .jumbotron,
+.high-contrast-3 footer {
+    background-color: #008000 !important; /* Setting the background color to green */
+    color: #000 !important; /* Setting the text color to black */
+}
+.high-contrast-3 .card-body {
+    background-color: #008000 !important; /* Setting the background color of card body to green */
+    color: #000 !important; /* Setting the text color to black */
+}
+.high-contrast-3 .navbar-toggler {
+    border-color: #008000 !important; /* Setting the border color of the navbar toggler to green */
+}
+
+.high-contrast-4 body,
+.high-contrast-4 .bg-light,
+.high-contrast-4 .jumbotron,
+.high-contrast-4 footer {
+    background-color: #800080 !important; /* Setting the background color to purple */
+    color: #FFF !important; /* Setting the text color to white */
+}
+.high-contrast-4 .card-body {
+    background-color: #800080 !important; /* Setting the background color of card body to purple */
+    color: #FFF !important; /* Setting the text color to white */
+}
+.high-contrast-4 .navbar-toggler {
+    border-color: #800080 !important; /* Setting the border color of the navbar toggler to purple */
+}
