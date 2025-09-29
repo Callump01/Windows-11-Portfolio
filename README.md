@@ -14,7 +14,7 @@ BTW, This project was inspired by [Macos Web](https://github.com/PuruVJ/macos-we
 
 ### Stack
 
-- [Preact](https://preactjs.com/)
+- [Preact](https://preactjs.com/) (Now [Million Js](https://million.dev/))
 - [ViteJS](http://vitejs.dev/)
 
 ### Acknowledgement
@@ -33,10 +33,6 @@ Some similar, but super awesome projects!
 - [MacOS Web](https://macos.now.sh/) by [Puru Vijay](https://github.com/PuruVJ/macos-web)
 - [Ubuntu Web](https://vivek9patel.github.io/) by [Vivek Patel](https://github.com/vivek9patel/vivek9patel.github.io)
 - [Windows 11 web, but with no-code](https://windows11.webflow.io/) by [Manivannan](https://twitter.com/BeingMani97)
-
-### Known Issues
-
-- Blur not working in Firefox browser.
 
 #### Solution:-
 

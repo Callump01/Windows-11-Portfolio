@@ -97,11 +97,18 @@ export const PinnedApps: PinnedApp[] = [{
 	pinned: false
 }]
 
-export const Apps = PinnedApps.reduce((acc, app) => {
-    return !app.appId && {
-        ...acc,
-        [app.appId || app.title]: {
-            ...app
+let a = 0;
+export const Apps = () => {
+    a++
+    return PinnedApps.reduce((acc, app) => {
+        return {
+            ...acc,
+            [app.appId || app.title]: {
+                ...app
+            }
         }
-    }
-}, {})
+    }, {})
+    console.log(a)
+}
+
+// console.log(Apps)
