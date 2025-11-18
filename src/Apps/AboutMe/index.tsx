@@ -1,10 +1,12 @@
 import linkedin_icon from "../../assets/icons/Social/linkedin-icon.svg";
 import github_icon from "../../assets/icons/Social/github-icon.svg";
 
+import selfie_img from "./selfie.png";
+
 export const AboutMeApp = () => {
   return (
 <div style="padding: 10px;">
-<p style="text-align: right;"><img style="display: block; margin-left: auto; margin-right: auto;" src="./selfie.png" alt="" width="250" height="250" /></p>
+<p style="text-align: right;"><img style="display: block; margin-left: auto; margin-right: auto;" src={selfie_img} alt="An portrait image of Callum Pope" width="250" height="250" /></p>
 <h4>&nbsp;</h4>
 <h2 style="text-align: center;">Callum Pope</h2>
 <p style="text-align: center;">Snr. Identity Consultant &amp; Cybersecurity Professional</p>
